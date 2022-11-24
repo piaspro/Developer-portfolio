@@ -23,23 +23,83 @@ h2 {
   font-weight: bold;
   cursor: pointer;
 }
+
+.Download-Resume {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(218, 149, 91),
+    rgb(210, 108, 19)
+  );
+  border: none;
+  border-radius: 5px;
+  width: 185px;
+  height: 45px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
 .first-sec {
   display: flex;
   justify-content: space-between;
   background-image: url(./images/top-banner.png);
   background-repeat: no-repeat;
+  padding-bottom: 30px;
+}
+.second-sec {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.third-sec {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .half-width {
-  width: 50%;
-  padding: 5px 65px;
+  width: 45%;
+  padding: 5px 75px;
 }
 .half-width h1 {
   font-size: large;
+}
+.half-width h2 {
+  font-size: 30px;
+}
+.third-sec h1 {
+  color: rgb(240, 175, 85);
 }
 .half-width p {
   color: rgb(50, 50, 50);
 }
 .d-image {
-  width: 600px;
-  height: 600px;
+  width: 550px;
+  height: 550px;
+}
+#pro-dev {
+  border-left: 7px solid red;
+  box-shadow: 5px 7px 40px darkgray;
+  width: 45%;
+  padding-left: 3%;
+  margin-left: 5%;
+  margin-right: 2%;
+  height: 400px;
+}
+#baby-dev {
+  border-left: 7px solid rgb(0, 123, 255);
+  box-shadow: 5px 7px 40px darkgray;
+  width: 45%;
+  padding-left: 3%;
+  margin-left: 5%;
+  margin-right: 2%;
+  height: 400px;
+}
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: gray;
 }
