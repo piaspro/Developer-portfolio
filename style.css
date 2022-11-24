@@ -1,19 +1,42 @@
 * {
   font-family: "Poppins", sans-serif;
+  padding: 0px 15px;
 }
 .name {
-  color: rgb(186, 122, 11);
+  color: rgb(209, 149, 44);
 }
 h2 {
   font-size: 50px;
 }
 .Hire-me {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(218, 149, 91),
+    rgb(210, 108, 19)
+  );
+  border: none;
+  border-radius: 5px;
+  width: 135px;
+  height: 45px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
 }
-.first-row {
+.first-sec {
   display: flex;
   justify-content: space-between;
 }
+.half-width {
+  width: 45%;
+}
+.half-width h1 {
+  font-size: large;
+}
+.half-width p {
+  color: rgb(50, 50, 50);
+}
 .d-image {
-  width: 350px;
-  height: 350px;
+  width: 600px;
+  height: 600px;
 }
