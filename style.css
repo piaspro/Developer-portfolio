@@ -1,9 +1,9 @@
-* {
+body {
   font-family: "Poppins", sans-serif;
-  padding: 0px 15px;
+  margin: 0;
 }
 .name {
-  color: rgb(209, 149, 44);
+  color: rgb(240, 175, 85);
 }
 h2 {
   font-size: 50px;
@@ -26,9 +26,12 @@ h2 {
 .first-sec {
   display: flex;
   justify-content: space-between;
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
 }
 .half-width {
-  width: 45%;
+  width: 50%;
+  padding: 5px 65px;
 }
 .half-width h1 {
   font-size: large;
